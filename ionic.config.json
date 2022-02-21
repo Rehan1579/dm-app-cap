@@ -1,0 +1,7 @@
+{
+  "name": "dm-app-cap",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
