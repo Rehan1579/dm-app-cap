@@ -1,0 +1,26 @@
+ion-grid {
+	height: calc(100% - 32px);
+	width: calc(100% - 32px);
+	background: red;
+	margin: 16px;
+	display: flex;
+	flex-direction: column;
+
+
+	ion-row {
+		flex-grow: 1;
+	}
+
+
+	ion-col {
+		background: yellow;
+		margin: 16px;
+
+
+		span {
+			display: inline-block;
+			width: 100px;
+			height: 100px;
+		}
+	}
+}
